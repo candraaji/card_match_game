@@ -25,4 +25,4 @@ const composeCardGenerator = () => {
   return dataCard;
 };
 
-export {composeCardGenerator};
+export {composeCardGenerator, _shuffleArray};

@@ -66,6 +66,7 @@ const Card = ({dataCard, onPressCard, countOpenCard, setStepToOpen}) => {
   } else {
     return (
       <Pressable
+        testID="PressableCard"
         onPress={() =>
           dataCard?.status === 'editable' ? onPressCardData(dataCard) : null
         }>

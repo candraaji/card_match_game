@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, Pressable} from 'react-native';
 const Header = ({stepToOpen, onPresRestart}) => {
   return (
     <View style={styles.scoreboardContainer}>
-      <Pressable onPress={onPresRestart}>
+      <Pressable testID="restartButton" onPress={onPresRestart}>
         <Text style={styles.textColor}>RESTART</Text>
       </Pressable>
       <Text style={styles.textColor}>STEPS : {stepToOpen}</Text>

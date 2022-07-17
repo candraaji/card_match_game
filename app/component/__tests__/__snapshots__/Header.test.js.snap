@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component it should render header compoennt correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "marginTop": "5%",
+      "minHeight": 50,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="restartButton"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      RESTART
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+  >
+    STEPS : 
+    99
+  </Text>
+</View>
+`;

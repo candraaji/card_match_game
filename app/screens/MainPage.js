@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {
   View,
   StyleSheet,
@@ -11,12 +11,12 @@ import Header from '../component/Header';
 import CardList from '../component/Card/CardList';
 
 const MainPage = () => {
-  const [randomNumber, setRandomNumber] = useState([]);
-  const [pickCard, setPickCard] = useState({});
-  const [stepToOpen, setStepToOpen] = useState(0);
-  const [countOpenCard, setCountOpenCard] = useState(1);
-  const [loading, setLoading] = useState(false);
-  const [isCompleted, setIsCompleted] = useState(false);
+  const [randomNumber, setRandomNumber] = React.useState([]);
+  const [pickCard, setPickCard] = React.useState({});
+  const [stepToOpen, setStepToOpen] = React.useState(0);
+  const [countOpenCard, setCountOpenCard] = React.useState(1);
+  const [loading, setLoading] = React.useState(false);
+  const [isCompleted, setIsCompleted] = React.useState(false);
 
   useEffect(() => {
     (async () => {
@@ -84,7 +84,6 @@ const MainPage = () => {
   return (
     <>
       <Header stepToOpen={stepToOpen} onPresRestart={onPresRestart} />
-
       {isCompleted ? (
         <View style={styles.containerOthers}>
           <Text style={styles.textCongrations}>

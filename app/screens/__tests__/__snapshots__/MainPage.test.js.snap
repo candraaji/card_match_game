@@ -1,0 +1,806 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage Screens it should render MainPage Completed Screens 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "marginTop": "5%",
+        "minHeight": 50,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="restartButton"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        RESTART
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      STEPS : 
+      0
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "height": 1214,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      CONGRATULATIONS !! 
+      
+
+       YOUR COMPLETED WITH 
+      0
+       STEP !
+    </Text>
+  </View>,
+]
+`;
+
+exports[`MainPage Screens it should render MainPage screens correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "marginTop": "5%",
+        "minHeight": 50,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="restartButton"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        RESTART
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+    >
+      STEPS : 
+      0
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "height": 1214,
+        "justifyContent": "space-around",
+        "padding": "1%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="PressableCard"
+    >
+      <View
+        collapsable={false}
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "white",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 175,
+            "justifyContent": "center",
+            "padding": 10,
+            "transform": Array [
+              Object {
+                "rotateY": "180deg",
+              },
+            ],
+            "width": 125,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/cardBackground.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "height": 175,
+              "justifyContent": "center",
+              "width": 125,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>,
+]
+`;

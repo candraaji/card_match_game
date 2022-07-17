@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component it should render card compoennt correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="PressableCard"
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "white",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 175,
+        "justifyContent": "center",
+        "padding": 10,
+        "transform": Array [
+          Object {
+            "rotateY": "180deg",
+          },
+        ],
+        "width": 125,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "testUri": "../../../app/assets/cardBackground.png",
+        }
+      }
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderRadius": 5,
+          "borderWidth": 0.5,
+          "height": 175,
+          "justifyContent": "center",
+          "width": 125,
+        }
+      }
+    />
+  </View>
+</View>
+`;
